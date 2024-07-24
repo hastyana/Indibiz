@@ -1,0 +1,14 @@
+Akun admin : 
+
+admin1
+admin1@email.com
+pass : Admin123
+
+Akun User
+hastyana_hr
+killgrave76@gmail.com
+Pass : HoaHoe00
+
+agus
+agus@gmail.com
+Pass : Agus99
