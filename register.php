@@ -34,15 +34,15 @@ include 'connection.php';
                     </h4>
                     <form action="" method="POST" enctype="multipart/form-data">
                         <div data-mdb-input-init class="form-outline mb-4">
-                            <label class="form-label" for="username">Nama</label>
+                            <label class="form-label" for="username">Nama <span class="text-danger">*</span> </label>
                             <input type="text" id="nama_user" name="nama_user" class="form-control form-control-lg" required />
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
-                            <label class="form-label" for="email">Email</label>
+                            <label class="form-label" for="email">Email <span class="text-danger">*</span> </label>
                             <input type="email" id="email" name="email" class="form-control form-control-lg" required />
                         </div>
                         <div class="col-auto">
-                            <label class="sr-only form-label" for="inlineFormInputGroup">Nomor Telepon</label>
+                            <label class="sr-only form-label" for="inlineFormInputGroup">Nomor Telepon <span class="text-danger">*</span> </label>
                             <div class="input-group mb-2">
                                 <div class="input-group-prepend">
                                     <div class="input-group-text">+62</div>
@@ -51,11 +51,11 @@ include 'connection.php';
                             </div>
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
-                            <label class="form-label" for="username">Username</label>
+                            <label class="form-label" for="username">Username <span class="text-danger">*</span> </label>
                             <input type="text" id="username" name="username" class="form-control form-control-lg" required/>
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
-                            <label class="form-label" for="password">Password</label>
+                            <label class="form-label" for="password">Password <span class="text-danger">*</span> </label>
                             <input type="password" id="password" name="password" class="form-control form-control-lg" required/>
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
@@ -88,7 +88,32 @@ include 'connection.php';
             alert ("Sukses... Akun sudah terdaftar");
             header ("register.php");
             </script>';
-        }else{
+        } else if($nama_user == ""){
+            echo'<script> 
+            alert ("Nama harus diisi");
+            header ("register.php");
+            </script>';
+        } else if($email == ""){
+            echo'<script> 
+            alert ("Email harus diisi menggunakan @");
+            header ("register.php");
+            </script>';
+        } else if($telp_user == ""){
+            echo'<script> 
+            alert ("Nomor telepon harus diisi");
+            header ("register.php");
+            </script>';
+        } else if($username == ""){
+            echo'<script> 
+            alert ("Username harus diisi");
+            header ("register.php");
+            </script>';
+        } else if($password == ""){
+            echo'<script> 
+            alert ("Password harus diisi");
+            header ("register.php");
+            </script>';
+        } else{
             echo 'Gagal upload';
         }
     }
