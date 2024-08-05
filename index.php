@@ -35,11 +35,11 @@ include 'connection.php';
                     <form action="login_process.php" method="POST">
                         <div data-mdb-input-init class="form-outline mb-4">
                             <label class="form-label" for="username">Username</label>
-                            <input type="text" name="username" class="form-control form-control-lg" />
+                            <input type="text" name="username" class="form-control form-control-lg" required/>
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
                             <label class="form-label" for="password">Password</label>
-                            <input type="password" name="password" class="form-control form-control-lg" />
+                            <input type="password" name="password" class="form-control form-control-lg" required/>
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
                             <a href="register.php" class="text-black navbar-brand link-danger link-offset-2">
