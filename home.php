@@ -155,6 +155,12 @@ if (!isset($_SESSION['username']) || $_SESSION['level'] !== 'user') {
                             <li>
                                 <p class='text-sm-start text-black-50'>Kecepatan internet up to $d[kecepatan_item] MBPS</p>
                             </li>
+                            <li>
+                                <p class='text-sm-start text-black-50'>Harga belum termasuk ppn</p>
+                            </li>
+                            <li>
+                                <p class='text-sm-start text-black-50'>Harga flat</p>
+                            </li>
                         </ul>
                         <a class='navbar-brand' href='pemesanan.php?id_item=$d[id_item]'>
                             <button type='button' class='btn btn-outline-danger'>
@@ -195,6 +201,12 @@ if (!isset($_SESSION['username']) || $_SESSION['level'] !== 'user') {
                             </li>
                             <li>
                                 <p class='text-sm-start text-black-50'>Kecepatan internet up to $d2[kecepatan_item] MBPS</p>
+                            </li>
+                            <li>
+                                <p class='text-sm-start text-black-50'>Harga belum termasuk ppn</p>
+                            </li>
+                            <li>
+                                <p class='text-sm-start text-black-50'>Harga flat</p>
                             </li>
                         </ul>
                         <a class='navbar-brand' href='pemesanan.php?id_item=$d2[id_item]'>
@@ -237,6 +249,12 @@ if (!isset($_SESSION['username']) || $_SESSION['level'] !== 'user') {
                             <li>
                                 <p class='text-sm-start text-black-50'>Kecepatan internet up to $d3[kecepatan_item] MBPS</p>
                             </li>
+                            <li>
+                                <p class='text-sm-start text-black-50'>Harga belum termasuk ppn</p>
+                            </li>
+                            <li>
+                                <p class='text-sm-start text-black-50'>Harga flat</p>
+                            </li>
                         </ul>
                         <a class='navbar-brand' href='pemesanan.php?id_item=$d3[id_item]'>
                             <button type='button' class='btn btn-outline-danger'>
@@ -277,6 +295,12 @@ if (!isset($_SESSION['username']) || $_SESSION['level'] !== 'user') {
                             </li>
                             <li>
                                 <p class='text-sm-start text-black-50'>Kecepatan internet up to $d4[kecepatan_item] MBPS</p>
+                            </li>
+                            <li>
+                                <p class='text-sm-start text-black-50'>Harga belum termasuk ppn</p>
+                            </li>
+                            <li>
+                                <p class='text-sm-start text-black-50'>Harga flat</p>
                             </li>
                         </ul>
                         <a class='navbar-brand' href='pemesanan.php?id_item=$d4[id_item]'>
