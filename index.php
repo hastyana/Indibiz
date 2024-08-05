@@ -34,11 +34,11 @@ include 'connection.php';
                     </h4>
                     <form action="login_process.php" method="POST">
                         <div data-mdb-input-init class="form-outline mb-4">
-                            <label class="form-label" for="username">Username</label>
+                            <label class="form-label" for="username">Username <span class="text-danger">*</span> </label>
                             <input type="text" name="username" class="form-control form-control-lg" required/>
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
-                            <label class="form-label" for="password">Password</label>
+                            <label class="form-label" for="password">Password <span class="text-danger">*</span> </label>
                             <input type="password" name="password" class="form-control form-control-lg" required/>
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
