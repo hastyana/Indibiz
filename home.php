@@ -156,7 +156,7 @@ if (!isset($_SESSION['username']) || $_SESSION['level'] !== 'user') {
                                 <p class='text-sm-start text-black-50'>Kecepatan internet up to $d[kecepatan_item] MBPS</p>
                             </li>
                             <li>
-                                <p class='text-sm-start text-black-50'>Harga belum termasuk ppn</p>
+                                <p class='text-sm-start text-black-50'>Harga belum termasuk ppn 10%</p>
                             </li>
                             <li>
                                 <p class='text-sm-start text-black-50'>Harga flat</p>
@@ -203,7 +203,7 @@ if (!isset($_SESSION['username']) || $_SESSION['level'] !== 'user') {
                                 <p class='text-sm-start text-black-50'>Kecepatan internet up to $d2[kecepatan_item] MBPS</p>
                             </li>
                             <li>
-                                <p class='text-sm-start text-black-50'>Harga belum termasuk ppn</p>
+                                <p class='text-sm-start text-black-50'>Harga belum termasuk ppn 10%</p>
                             </li>
                             <li>
                                 <p class='text-sm-start text-black-50'>Harga flat</p>
@@ -250,7 +250,7 @@ if (!isset($_SESSION['username']) || $_SESSION['level'] !== 'user') {
                                 <p class='text-sm-start text-black-50'>Kecepatan internet up to $d3[kecepatan_item] MBPS</p>
                             </li>
                             <li>
-                                <p class='text-sm-start text-black-50'>Harga belum termasuk ppn</p>
+                                <p class='text-sm-start text-black-50'>Harga belum termasuk ppn 10%</p>
                             </li>
                             <li>
                                 <p class='text-sm-start text-black-50'>Harga flat</p>
@@ -297,7 +297,7 @@ if (!isset($_SESSION['username']) || $_SESSION['level'] !== 'user') {
                                 <p class='text-sm-start text-black-50'>Kecepatan internet up to $d4[kecepatan_item] MBPS</p>
                             </li>
                             <li>
-                                <p class='text-sm-start text-black-50'>Harga belum termasuk ppn</p>
+                                <p class='text-sm-start text-black-50'>Harga belum termasuk ppn 10%</p>
                             </li>
                             <li>
                                 <p class='text-sm-start text-black-50'>Harga flat</p>
