@@ -77,6 +77,8 @@ if (!isset($_SESSION['username']) || $_SESSION['level'] !== 'user') {
                     $harga = $data['harga_item'];
                     $kategori = $data['kategori'];
                     $nama_item = $data['nama_item'];
+                    $ppn = $harga*(10/100);
+                    $total = $harga + $ppn;
                 ?>
                 <form action="pemesanan.php" method="POST" onsubmit="return confirmSubmit()" enctype="multipart/form-data">
                     <input type="hidden" name="id_item" value="<?php echo $id; ?>">
@@ -107,7 +109,7 @@ if (!isset($_SESSION['username']) || $_SESSION['level'] !== 'user') {
                     </div>
                     <div class="form-group pb-4">
                         <label for="harga_item">Harga Paket</label>
-                        <input type="text" disabled class="form-control" id="harga_item" name="harga_item" value="<?php echo $harga; ?>">
+                        <input type="text" disabled class="form-control" id="harga_item" name="harga_item" value="<?php echo $total; ?>">
                     </div>
                     <div class="pb-4">
                         <a href="pemesanan.php"><input class ="btn btn-danger btn-icon-split py-1 px-2" type="submit" name="Kirim" value="Kirim"> </a>
