@@ -35,11 +35,11 @@ include 'connection.php';
                     <form action="" method="POST" enctype="multipart/form-data">
                         <div data-mdb-input-init class="form-outline mb-4">
                             <label class="form-label" for="username">Nama</label>
-                            <input type="text" id="nama_user" name="nama_user" class="form-control form-control-lg" />
+                            <input type="text" id="nama_user" name="nama_user" class="form-control form-control-lg" required />
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
                             <label class="form-label" for="email">Email</label>
-                            <input type="email" id="email" name="email" class="form-control form-control-lg" />
+                            <input type="email" id="email" name="email" class="form-control form-control-lg" required />
                         </div>
                         <div class="col-auto">
                             <label class="sr-only form-label" for="inlineFormInputGroup">Nomor Telepon</label>
@@ -47,16 +47,16 @@ include 'connection.php';
                                 <div class="input-group-prepend">
                                     <div class="input-group-text">+62</div>
                                 </div>
-                                <input type="text" class="form-control" id="inlineFormInputGroup" id="telp_user" name="telp_user">
+                                <input type="text" class="form-control" id="inlineFormInputGroup" id="telp_user" name="telp_user" required>
                             </div>
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
                             <label class="form-label" for="username">Username</label>
-                            <input type="text" id="username" name="username" class="form-control form-control-lg" />
+                            <input type="text" id="username" name="username" class="form-control form-control-lg" required/>
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
                             <label class="form-label" for="password">Password</label>
-                            <input type="password" id="password" name="password" class="form-control form-control-lg" />
+                            <input type="password" id="password" name="password" class="form-control form-control-lg" required/>
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
                             <a href="index.php" class="text-black navbar-brand link-danger link-offset-2">
